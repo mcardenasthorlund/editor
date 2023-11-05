@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Montserrat, sans-serif;
+    height: 100vh;
+    text-align: center;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    border: solid 1px #efefef;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.opcion {
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    height: 30px;
+    margin: 3px;
+    border: solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.opcion:hover {
+    background-color: #333;
+    color: white;
+}
+
+.fileInput {
+    display: none;
+}
+
+.fileInput-label {
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.fileInput-label:hover {
+    background-color: #333;
+    color: white;
+}
+
+.range {
+    width: 100%;
+}
+
+#tipo-filtro {
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.label-filtro {
+    font-weight: 600;
+    font-size: min(5em, 10vw);
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+#img-preview {
+
+    display: block;
+
+    /* This rule is very important, please don't ignore this */
+    max-width: 100%;
+
+}
